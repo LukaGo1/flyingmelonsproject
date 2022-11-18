@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"> 
+
+      <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1>Flying Melons</h1>
+        <div class="text-center">
+          <a target=”_blank href="https://open.spotify.com/artist/6YaGjdn4587doBDUbWgMHe" class="p-2">Musics</a>
+          <a type="button" target=”_blank class="btn btn-primary p-2" href="https://www.instagram.com/flying_melons/">
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <main class="px-lg-5 d-flex flex-column gap-5 mt-3">
+        <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="videos/Flying Melons - Remember Me as the One You Loved.mp4"></iframe>
+          </div>
+
+        <div class="container" id="works">
+          <h2 class="fw-bolder">Works</h2>
+          <p class="text-secondary">Let me show my project</p>
+          <p class="text-secondary">
+            Here you can find my personal music project called Flying Melons. I am the only musician in the band and am planning to play concerts when I get back to
+            France in January. Here you can find images of the albums, and on the links, my musics so you can listen to them. Tshirts aren't available yet unfortunately
+            but I'm working on new designs ! 
+          </p>
+
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 justify-content-center justify-content-md-between"
+          >
+          <div class="col">
+            <a href="images/album1.jpeg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                    class="img-fluid" src="images/album1.jpeg" alt="album1"></a>
+          </div>
+          <div class="col">
+            <a href="images/album2.jpg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                    class="img-fluid" src="images/album2.jpg" alt="album2"></a>
+          </div>
+          <div class="col">
+            <a href="images/album3.jpg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                    class="img-fluid" src="images/album3.jpg" alt="album3"></a>
+          </div>
+          <div class="col">
+            <a href="images/songs.jpg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                    class="img-fluid" src="images/songs.jpg" alt="songs"></a>
+          </div>
+          <div class="col">
+            <a href="images/tshirt.jpg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                    class="img-fluid" src="images/tshirt.jpg" alt="tshirts"></a>
+          </div>
+            <div class="col">
+                <a href="images/pdp.jpg" data-lightbox="image-set" data-title="Working Scenario"> <img
+                        class="img-fluid" src="images/pdp.jpg" alt="pdp"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container ">
+          <div
+            class="d-flex flex-column-reverse flex-lg-row align-items-center"
+          >
+            <div class=" text-lg-start text-center">
+              <h3>Grow your business with us</h3>
+              <p class="text-secondary">
+                Click here to send me an email and have all the programation. Next concert is planned in April 2023 in Paris !!! I hope I'll see you there.
+              </p>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/flying_melons/"
+                class="p-2 btn"
+                style="background-color: #7234FF; color: white;"
+              >
+                Contact
+              </a>
+            </div>
+            <div class="container">
+              <img
+                class="rounded"
+                width="100%"
+                height="100%"
+                src="images/logo.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="mt-5 w-100">
+      <img
+        style="object-fit: cover;"
+        src="images/black.jpeg"
+        width="100%"
+        height="150px"
+      />
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        lightbox.option({
+            'wrapAround': true,
+            'positionFromTop': 200,
+            'resizeDuration': 2000,
+            'albumLabel':	"Imagen %1 de %2"
+        })
+    </script>
+
+  </body>
+</html>
